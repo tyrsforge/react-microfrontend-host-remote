@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "remote:start": "webpack serve --config remote/webpack.config.js"
+    "remote:start": "webpack serve --config remote/webpack.config.js",
+    "host:start": "webpack serve --config host/webpack.config.js"
   },
   "keywords": [],
   "author": "",
