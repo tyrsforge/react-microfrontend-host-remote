@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "remote:start": "webpack serve --config remote/webpack.config.js",
-    "host:start": "webpack serve --config host/webpack.config.js"
+    "host:start": "webpack serve --config host/webpack.config.js",
+    "dev": "concurrently \"pnpm remote:start\" \"pnpm host:start\""
   },
   "keywords": [],
   "author": "",
